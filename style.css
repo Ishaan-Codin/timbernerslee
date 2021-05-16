@@ -72,7 +72,7 @@ font-family: 'Itim', cursive;
 
 .menu{
     list-style: none;
-    position: absolute;
+    position: fixed;
     top: 10px;
     z-index: 10;
     right: 30px;
@@ -90,4 +90,31 @@ font-family: 'Itim', cursive;
 
 .links:hover{
     background-color: darkblue;
+}
+#bio {
+    background: linear-gradient(#fcba03 0%,#31fc03 100%);
+    
+}
+#video {
+     background: linear-gradient(#03dbfc 0%,#03fcd3 100%);
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: chartreuse;
+}
+html{
+    scroll-behavior: smooth;
+}
+#work{
+        background: linear-gradient(#fce303 0%,#03fc3d 100%);
+}
+#writings {
+    background: linear-gradient(#03fcfc 0%, #0320fc 100%);
+   color: beige;
+    
+}
+#writings a{
+    color: beige;
 }
